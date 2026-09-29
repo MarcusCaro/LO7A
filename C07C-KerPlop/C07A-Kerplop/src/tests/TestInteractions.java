@@ -1,3 +1,11 @@
+/*
+ * Class: TestInteractions
+ * Test interactions for the pieces that interact with the player
+ * 
+ * Authors: Marcus Caro, Trisha Varadaraj
+ * Date: 9/28/2026
+ */
+
 package tests;
 
 import org.junit.jupiter.api.Test; // Imports for JUnit 
@@ -6,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import gameEngine.Drawable;
 import gameEngine.GameEngine;
 import gameEngine.InteractionResult;
-import levelPieces.GamePiece;
 import levelPieces.Boulder;
 import levelPieces.Soldier;
 import levelPieces.Medusa;
@@ -17,7 +24,7 @@ import levelPieces.Treasure;
 
 
 public class TestInteractions {
-// Wasp:
+// Wasp: Test 1
 	public void testWaspInteraction() {
 		Drawable[] gameBoard = new Drawable [GameEngine.BOARD_SIZE]; // Blank board, size 21 . 
 		Wasp wasp = new Wasp(10); // Index 10 
@@ -32,7 +39,7 @@ public class TestInteractions {
 
 
 
-// Minotaur: 
+// Minotaur: Test 2
 @Test 
 	public void testMinotaurInteraction() {
 		Drawable[] gameBoard = new Drawable [GameEngine.BOARD_SIZE]; // Blank board, size 21 . 
