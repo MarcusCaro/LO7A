@@ -73,7 +73,7 @@ public class LevelSetup {
 		addPiece(new Boulder(), 2);
 		addPiece(new Boulder(), 19);
 		
-		addPiece(new Treasure(3), 6);
+		addPiece(new Treasure(3), 3);
 		
 		addPiece(new Wasp(5), 5);
 		
@@ -95,8 +95,8 @@ public class LevelSetup {
 		
 		addPiece(new Treasure(5), 2);
 		
-		addPiece(new Wasp(3), 22);
-		addPiece(new Wasp(6), 4);
+		addPiece(new Wasp(3), 3);
+		addPiece(new Wasp(4), 4);
 		
 		addPiece(new Minotaur(8), 8);
 		
